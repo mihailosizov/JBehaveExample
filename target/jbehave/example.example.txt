@@ -1,0 +1,49 @@
+
+(example/example.story)
+Scenario: 2 squared
+Given a variable x with value 2 (PENDING)
+When I multiply x by 2 (PENDING)
+Then x should equal 4 (PENDING)
+@Given("a variable x with value 2")
+@Pending
+public void givenAVariableXWithValue2() {
+  // PENDING
+}
+
+@When("I multiply x by 2")
+@Pending
+public void whenIMultiplyXBy2() {
+  // PENDING
+}
+
+@Then("x should equal 4")
+@Pending
+public void thenXShouldEqual4() {
+  // PENDING
+}
+
+
+Scenario: 3 squared
+Given a variable x with value 3 (PENDING)
+When I multiply x by 3 (PENDING)
+Then x should equal 10 (PENDING)
+@Given("a variable x with value 3")
+@Pending
+public void givenAVariableXWithValue3() {
+  // PENDING
+}
+
+@When("I multiply x by 3")
+@Pending
+public void whenIMultiplyXBy3() {
+  // PENDING
+}
+
+@Then("x should equal 10")
+@Pending
+public void thenXShouldEqual10() {
+  // PENDING
+}
+
+
+
